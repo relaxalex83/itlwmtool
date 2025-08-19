@@ -106,7 +106,9 @@ function AddKext()
             if [ "$check" == "$val" ]; then
                 echo "Remove AirportItlwm.kext in $patharr"
                 /usr/libexec/PlistBuddy -c "Delete $patharr:$i" ${FULLPLISTPATH}
+
                 cp -R ~/UPDATE/kexts/Other/itlwm.kext /Volumes/EFI/EFI/OC/Kexts/
+                
                 PLISTPATH="/Volumes/EFI/EFI/OC/"
                 PLISTFILE="config.plist"
                 Arch="Any"
