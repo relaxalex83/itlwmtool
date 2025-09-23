@@ -2,5 +2,6 @@
 ##### Если в EFI не установлен AirportItlwm.kext, данный скрипт предложит установить Itlwm.kext + HeliPort APP
 
 ##### Для запуска скопируйте команду и вставьте в терминал:
-
-> curl -L -O "https://github.com/relaxalex83/itlwmtool/raw/refs/heads/main/itlwm.zip" && unzip -qu "itlwm" && sudo ./itlwm
+```
+curl -L -O "https://github.com/relaxalex83/itlwmtool/raw/refs/heads/main/itlwm.zip" && unzip -qu "itlwm" && sudo ./itlwm
+```
